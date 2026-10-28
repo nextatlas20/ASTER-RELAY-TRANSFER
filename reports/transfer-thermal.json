@@ -1,0 +1,84 @@
+{
+  "cutoff": "2097-02-11T12:00:00Z",
+  "shipment_count": 6,
+  "cleared_count": 2,
+  "watch_count": 1,
+  "hold_count": 2,
+  "no_data_count": 1,
+  "valid_reading_count": 11,
+  "breach_reading_count": 5,
+  "shipments": [
+    {
+      "shipment_id": "TX-402",
+      "lane": "Polar-7",
+      "coordinator": "Dev Sato",
+      "rank": 1,
+      "ceiling_celsius": -70,
+      "status": "CLEARED",
+      "peak_celsius": -71,
+      "latest_at": "2097-02-11T10:00:00Z",
+      "valid_reading_count": 2,
+      "breach_reading_count": 0
+    },
+    {
+      "shipment_id": "TX-405",
+      "lane": "Polar-1",
+      "coordinator": "Olek Reed",
+      "rank": 2,
+      "ceiling_celsius": -68,
+      "status": "HOLD",
+      "peak_celsius": -66,
+      "latest_at": "2097-02-11T10:45:00Z",
+      "valid_reading_count": 2,
+      "breach_reading_count": 2
+    },
+    {
+      "shipment_id": "TX-403",
+      "lane": "Harbor-3",
+      "coordinator": "Nia Bell",
+      "rank": 3,
+      "ceiling_celsius": -60,
+      "status": "WATCH",
+      "peak_celsius": -59,
+      "latest_at": "2097-02-11T11:15:00Z",
+      "valid_reading_count": 2,
+      "breach_reading_count": 1
+    },
+    {
+      "shipment_id": "TX-401",
+      "lane": "Boreal-2",
+      "coordinator": "Mara Quill",
+      "rank": 4,
+      "ceiling_celsius": -65,
+      "status": "HOLD",
+      "peak_celsius": -63,
+      "latest_at": "2097-02-11T09:30:00Z",
+      "valid_reading_count": 3,
+      "breach_reading_count": 2
+    },
+    {
+      "shipment_id": "TX-406",
+      "lane": "Harbor-8",
+      "coordinator": "Nia Bell",
+      "rank": 5,
+      "ceiling_celsius": -55,
+      "status": "CLEARED",
+      "peak_celsius": -55,
+      "latest_at": "2097-02-11T11:50:00Z",
+      "valid_reading_count": 2,
+      "breach_reading_count": 0
+    },
+    {
+      "shipment_id": "TX-404",
+      "lane": "Boreal-9",
+      "coordinator": "Mara Quill",
+      "rank": 6,
+      "ceiling_celsius": -62,
+      "status": "NO_DATA",
+      "peak_celsius": null,
+      "latest_at": null,
+      "valid_reading_count": 0,
+      "breach_reading_count": 0
+    }
+  ]
+}
